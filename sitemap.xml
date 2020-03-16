@@ -3,37 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://eshaannichani.com/blog/</loc>
+    <loc>https://eshnich.github.io/blog/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://eshaannichani.com/designs/</loc>
+    <loc>https://eshnich.github.io/designs/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://eshaannichani.com/</loc>
+    <loc>https://eshnich.github.io/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://eshaannichani.com/misc/</loc>
+    <loc>https://eshnich.github.io/misc/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://eshaannichani.com/projects/</loc>
+    <loc>https://eshnich.github.io/projects/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://eshaannichani.com/techs/</loc>
+    <loc>https://eshnich.github.io/techs/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
