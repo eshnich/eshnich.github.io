@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Techs on Eshaan Nichani</title>
-    <link>www.eshaannichani.com/techs/</link>
+    <link>https://eshaannichani.com/techs/</link>
     <description>Recent content in Techs on Eshaan Nichani</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Eshaan Nichani</copyright>
     
-	<atom:link href="www.eshaannichani.com/techs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://eshaannichani.com/techs/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

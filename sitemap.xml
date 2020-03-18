@@ -3,37 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>www.eshaannichani.com/blog/</loc>
+    <loc>https://eshaannichani.com/blog/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>www.eshaannichani.com/designs/</loc>
+    <loc>https://eshaannichani.com/designs/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>www.eshaannichani.com/</loc>
+    <loc>https://eshaannichani.com/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>www.eshaannichani.com/misc/</loc>
+    <loc>https://eshaannichani.com/misc/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>www.eshaannichani.com/projects/</loc>
+    <loc>https://eshaannichani.com/projects/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>www.eshaannichani.com/techs/</loc>
+    <loc>https://eshaannichani.com/techs/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
