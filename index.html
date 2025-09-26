@@ -111,44 +111,56 @@
 <h1></h1>
 <p>I am a final-year PhD student in the <a href="https://ece.princeton.edu/">ECE</a> department at <a href="https://www.princeton.edu/">Princeton University</a>, jointly advised by <a href="https://jasondlee88.github.io/">Jason D. Lee</a> and <a href="https://yuxinchen2020.github.io/">Yuxin Chen</a>.</p>
 <p>The goal of my research is to develop mathematical theories of how deep neural networks learn from data. This follows three broad themes:</p>
-<ol>
-<li>How do shallow neural networks trained via SGD learn sophisticated representations from data (i.e perform feature learning)? I derive end-to-end guarantees on the sample complexity, network size, and runtime required for neural networks to learn various classes of functions with SGD.</li>
-</ol>
+<p><strong>Feature Learning:</strong> How do shallow neural networks trained via SGD learn sophisticated representations from data?</p>
+<ul>
+<li>
 <p><a href="https://arxiv.org/abs/2305.06986"><strong>Provable Guarantees for Nonlinear Feature Learning in Three-Layer Neural Networks</strong></a><br>
 <strong>Eshaan Nichani</strong>, Alex Damian, Jason D. Lee.<br>
 <em>Neural Information Processing Systems (NeurIPS)</em>, 2023 (<span style="color:red"><strong>Spotlight</strong></span>).</p>
-<p><a href="https://arxiv.org/abs/2305.10633"><strong>Smoothing the Landscape Boosts the Signal for SGD: Optimal Sample Complexity for Learning Single Index Models</strong></a><br>
-Alex Damian, <strong>Eshaan Nichani</strong>, Rong Ge, Jason D. Lee.<br>
-<em>Neural Information Processing Systems (NeurIPS)</em>, 2023 (<span style="color:red"><strong>Oral</strong></span>).</p>
+</li>
+<li>
 <p><a href="https://arxiv.org/abs/2504.19983"><strong>Emergence and scaling laws in SGD learning of shallow neural networks</strong></a><br>
 Yunwei Ren*, <strong>Eshaan Nichani</strong>*, Denny Wu, Jason D. Lee.<br>
 <em>Neural Information Processing Systems (NeurIPS)</em>, 2025.</p>
-<ol start="2">
-<li>Transformer-based language models display a host of surprising capabilities, ranging from in-context learning to multi-step reasoning. My research aims to understand how transformers learn to acquire such capabilities during pretraining, by deriving provable guarantees for gradient descent on certain synthetic, sandbox tasks which formalize these core phenomena.</li>
-</ol>
+</li>
+</ul>
+<p><strong>Transformer Phenomena:</strong> How do transformers learn to acquire capabilities during pretraining?</p>
+<ul>
+<li>
 <p><a href="https://arxiv.org/abs/2402.14735"><strong>How Transformers Learn Causal Structure with Gradient Descent</strong></a><br>
 <strong>Eshaan Nichani</strong>, Alex Damian, Jason D. Lee.<br>
 <em>International Conference on Machine Learning (ICML)</em>, 2024.</p>
-<p><a href="https://arxiv.org/abs/2412.06538"><strong>Understanding Factual Recall in Transformers via Associative Memories</strong></a><br>
-<strong>Eshaan Nichani</strong>, Jason D. Lee, Alberto Bietti.<br>
-<em>International Conference on Learning Representations (ICLR)</em>, 2025 (<span style="color:red"><strong>Spotlight</strong></span>).<br>
-<span style="color:red"><strong>Oral</strong></span> presentation at M3L workshop, NeurIPS 2024.</p>
+</li>
+<li>
 <p><a href="https://arxiv.org/abs/2505.23683"><strong>Learning Compositional Functions with Transformers from Easy-to-Hard Data</strong></a><br>
 Zixuan Wang*, <strong>Eshaan Nichani</strong>*, Alberto Bietti, Alex Damian, Daniel Hsu, Jason D. Lee, Denny Wu.<br>
 <em>Conference on Learning Theory (COLT)</em>, 2025.</p>
-<ol start="3">
-<li>How can one model ``practical&rdquo; deep learning optimization, which may deviate from classical optimization theory? And what insights can be derived for training deep networks in practice?</li>
-</ol>
+</li>
+</ul>
+<p><strong>Optimization Dynamics:</strong> Can we model deep learning optimization, and derive insights for training deep networks in practice?</p>
+<ul>
+<li>
 <p><a href="https://arxiv.org/abs/2209.15594"><strong>Self-Stabilization: The Implicit Bias of Gradient Descent at the Edge of Stability</strong></a><br>
 Alex Damian*, <strong>Eshaan Nichani</strong>*, Jason D. Lee.<br>
 <em>International Conference on Learning Representations (ICLR)</em>, 2023.</p>
+</li>
+<li>
 <p><a href="https://arxiv.org/abs/2305.17333"><strong>Fine-Tuning Language Models with Just Forward Passes</strong></a><br>
 Sadhika Malladi, Tianyu Gao, <strong>Eshaan Nichani</strong>, Alex Damian, Jason D. Lee, Danqi Chen, and Sanjeev Arora.<br>
 <em>Neural Information Processing Systems (NeurIPS)</em>, 2023 (<span style="color:red"><strong>Oral</strong></span>).</p>
+</li>
+</ul>
 <p>Check out my <a href="/publications/">publications</a> page for more!</p>
 <p>I spent Summer 2024 as a research associate at the Flatiron Institute <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-mathematics/">Center for Computational Mathematics</a>, working with <a href="https://alberto.bietti.me/">Alberto Bietti</a>. I am supported by the <a href="https://ndseg.sysplus.com/">DoD NDSEG Fellowship</a> and the <a href="https://research.ibm.com/university/awards/fellowships-awardees.html">IBM PhD Fellowship</a>. I previously received my B.S. degrees in Math and Computer Science (2020) and my <a href="https://dspace.mit.edu/bitstream/handle/1721.1/139174/Nichani-eshnich-meng-eecs-2021-thesis.pdf">M.Eng degree in EECS (2021)</a> from <a href="https://web.mit.edu/">MIT</a>, where I was advised by <a href="https://www.carolineuhler.com/">Caroline Uhler</a>.</p>
 <p>You can contact me at eshnich (at) princeton (dot) edu.</p>
 <p><a href="/main.pdf">CV</a> <a href="https://scholar.google.com/citations?user=ZQs5JAIAAAAJ&amp;hl=en">Google Scholar</a></p>
+<!--
+1. How do shallow neural networks trained via SGD learn sophisticated representations from data (i.e perform feature learning)? I derive end-to-end guarantees on the sample complexity, network size, and runtime required for neural networks to learn various classes of functions with SGD.
+
+2. Transformer-based language models display a host of surprising capabilities, ranging from in-context learning to multi-step reasoning. My research aims to understand how transformers learn to acquire such capabilities during pretraining, by deriving provable guarantees for gradient descent on certain synthetic, sandbox tasks which formalize these core phenomena.
+
+--><blockquote>
+</blockquote>
 
 
 
