@@ -1,181 +1,255 @@
 <!DOCTYPE html>
-<html lang='en'><head>
-  <title>Home - Eshaan Nichani</title>
-  <link rel='canonical' href='https://eshaannichani.com/' />
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1' />
-  <meta name='description' content='home page' />
-  <meta name='theme-color' content='#FD3519' />
-  
-
-  <meta name="generator" content="Hugo 0.63.1" />
-
-  
-
-
-
-
-
-<link rel="stylesheet" href="https://eshaannichani.com/sass/style.min.cf2eeff825d4dbc673ce0b82d270d9fc32d34973a7d5cd079e0dcf4fe3e77515.css" integrity="sha256-zy7v&#43;CXU28ZzzguC0nDZ/DLTSXOn1c0Hng3PT&#43;PndRU=" crossorigin="anonymous" media="screen">
-<link rel="stylesheet" href="https://eshaannichani.com/syntax.css" integrity="" crossorigin="anonymous" media="screen">
-
-  <meta property="og:title" content="Home" />
-<meta property="og:description" content="home page" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://eshaannichani.com/" />
-
-
-  <meta itemprop="name" content="Home">
-<meta itemprop="description" content="home page">
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eshaan Nichani</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="container">
 
-  <header style="background-image:linear-gradient(
-      rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-    ),url(&#39;https://eshaannichani.com/images/flower.jpg&#39;)">
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="about-header">
+        <img src="prof-pic-zoom.jpg" alt="Eshaan Nichani" class="profile-photo" />
+        <div class="about-text">
+          <h1>Eshaan Nichani</h1>
+          <p class="bio">
+            I am an incoming postdoctoral researcher at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/">Microsoft Research NYC</a>.
+            I received my PhD in <a href="https://ece.princeton.edu/">Electrical and Computer Engineering</a> from Princeton University, advised by
+            <a href="https://jasondlee88.github.io/">Jason D. Lee</a> and <a href="https://yuxinchen2020.github.io/">Yuxin Chen</a>. During my PhD I spent time at the
+            Flatiron Institute, and my research was supported by the DoD NDSEG Fellowship and the IBM PhD
+            Fellowship. I previously received my B.S. degrees in Math and Computer Science (2020) and my
+            M.Eng degree in EECS (2021) from MIT, where I was advised by <a href="https://www.carolineuhler.com/">Caroline Uhler</a>.
+          </p>
+        </div>
+      </div>
+      <nav class="icon-links">
+        <a href="mailto:eshnich@princeton.edu" class="icon-link">
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <polyline points="2,4 12,13 22,4"/>
+          </svg>
+          Email
+        </a>
+        <a href="main.pdf" class="icon-link">
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14,2 14,8 20,8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+          </svg>
+          CV
+        </a>
+        <a href="https://scholar.google.com/citations?user=ZQs5JAIAAAAJ&hl=en" class="icon-link">
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+          Scholar
+        </a>
+        <a href="https://x.com/EshaanNichani" class="icon-link">
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+          Twitter
+        </a>
+      </nav>
+    </section>
 
-  <div class="intro">
-    <div class="logo-container">
-      <a href="/">
-        <img src='https://eshaannichani.com/images/eshaan.jpg' alt="Profile Home" class="rounded-logo">
-      </a>
-    </div>
-    <div class="blank">
-        <img src='https://eshaannichani.com/images/eshaan.jpg' alt="Profile Home" height="50" style="opacity:0.0">
-    </div>
-    <h2>Eshaan Nichani</h2>
-    <h3> </h3>
-    <div class="menu">
-      
+    <!-- RESEARCH -->
+    <section id="research">
+      <h2>Research</h2>
+      <p>My research is focused on developing the mathematical and scientific foundations of modern AI. I've recently been interested in the following directions:</p>
+      <ul>
+        <li><strong class="topic-tag topic-rl">Representation Learning</strong> I study how neural networks <a href="https://arxiv.org/abs/2305.06986">learn useful representations</a> through gradient-based training, and derive sharp, <a href="https://arxiv.org/abs/2504.19983">end-to-end learning guarantees</a> in tractable model settings.</li>
+        <li><strong class="topic-tag topic-tc">Transformer Capabilities</strong> I study when and how transformers can learn to perform different tasks -- such as <a href="https://arxiv.org/abs/2402.14735">in-context learning</a>, <a href="https://arxiv.org/abs/2505.23683">reasoning</a>, or <a href="https://arxiv.org/abs/2412.06538">factual recall</a> -- during training, and characterize their capabilities and limitations.</li>
+        <li><strong class="topic-tag topic-mot">Modern Optimization Theory</strong> I build <a href="https://arxiv.org/abs/2209.15594">optimization theory</a> which captures how neural networks are trained in practice, clarifies the role of different <a href="https://arxiv.org/abs/2603.26554">optimization algorithms</a>, and guides the design of new, <a href="https://arxiv.org/abs/2305.17333">practical algorithms</a>.</li>
+      </ul>
+    </section>
 
-        <p>
-            <a href="/">
-                Home
-            </a>
-        </p>
+    <!-- NEWS -->
+    <section id="news">
+      <h2>News</h2>
+      <ul class="news-list">
+        <li><span class="news-date">[May 2026]</span> Graduated from Princeton! Thank you to all my mentors and collaborators!</li>
+        <li><span class="news-date">[May 2026]</span> Invited talk at <a href="https://flareworkshop.github.io/">FLARE</a> (Fundamental principles of Learning And REpresentation: from Brains to LLMs) Workshop, EPFL, Switzerland.</li>
+        <li><span class="news-date">[Jan–Apr 2026]</span> Invited talks at UChicago Booth, UT Austin, UW-Madison, Columbia, MIT Sloan.</li>
+      </ul>
+    </section>
 
-        <p>
-            <a href="/publications/">
-                Publications
-            </a>
-        </p>
+    <!-- PUBLICATIONS -->
+    <section id="publications">
+      <h2>Publications</h2>
+      <div class="pub-toggle" role="group" aria-label="Publication filter">
+        <button class="pub-btn active" id="btn-selected">Selected</button><button class="pub-btn" id="btn-all">All Publications</button><button class="pub-btn" id="btn-by-topic">By Topic</button>
+      </div>
 
-      
-    </div>
+      <div id="pub-list">
+
+        <!-- 2026 -->
+        <p class="pub-year paper-extra">2026</p>
+        <div class="paper" data-filter="selected">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2603.26554">Sharp Capacity Scaling of Spectral Optimizers in Learning Associative Memory</a></p>
+          <p class="paper-authors">Juno Kim*, <strong>Eshaan Nichani</strong>*, Denny Wu, Alberto Bietti, Jason D. Lee</p>
+          <p class="paper-venue">Preprint, 2026 <span class="topic-tag topic-mot">Optimization</span></p>
+        </div>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2605.27774">Fine-Tuning Dynamics of In-Context Factual Recall in Transformers</a></p>
+          <p class="paper-authors">Ruomin Huang, <strong>Eshaan Nichani</strong>, Jason D. Lee, Rong Ge</p>
+          <p class="paper-venue">Preprint, 2026 <span class="topic-tag topic-tc">Transformers</span></p>
+        </div>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2605.05189">Sharp Capacity Thresholds in Linear Associative Memory: From Winner-Take-All to Listwise Retrieval</a></p>
+          <p class="paper-authors">Nicholas Barnfield, Juno Kim, <strong>Eshaan Nichani</strong>, Jason D. Lee, Yue M. Lu</p>
+          <p class="paper-venue">Preprint, 2026 <span class="topic-tag topic-misc">Misc. Statistics</span></p>
+        </div>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2510.04115">On the Statistical Query Complexity of Learning Semiautomata: A Random Walk Approach</a></p>
+          <p class="paper-authors">George Giapitzakis, Kimon Fountoulakis, <strong>Eshaan Nichani</strong>, Jason D. Lee</p>
+          <p class="paper-venue">COLT 2026 <span class="topic-tag topic-tc">Transformers</span></p>
+        </div>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2510.27015">Quantitative Bounds for Length Generalization in Transformers</a></p>
+          <p class="paper-authors">Zachary Izzo*, <strong>Eshaan Nichani</strong>*, Jason D. Lee</p>
+          <p class="paper-venue">ICLR 2026 <span class="paper-badge">Oral</span><span class="topic-tag topic-tc">Transformers</span></p>
+        </div>
+
+        <!-- 2025 -->
+        <p class="pub-year paper-extra">2025</p>
+        <div class="paper" data-filter="selected">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2504.19983">Emergence and Scaling Laws in SGD Learning of Shallow Neural Networks</a></p>
+          <p class="paper-authors">Yunwei Ren*, <strong>Eshaan Nichani</strong>*, Denny Wu, Jason D. Lee</p>
+          <p class="paper-venue">NeurIPS 2025 <span class="topic-tag topic-rl">Repr. Learning</span></p>
+        </div>
+
+        <div class="paper" data-filter="selected">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2505.23683">Learning Compositional Functions with Transformers from Easy-to-Hard Data</a></p>
+          <p class="paper-authors">Zixuan Wang*, <strong>Eshaan Nichani</strong>*, Alberto Bietti, Alex Damian, Daniel Hsu, Jason D. Lee, Denny Wu</p>
+          <p class="paper-venue">COLT 2025 <span class="topic-tag topic-tc">Transformers</span></p>
+        </div>
+
+        <div class="paper" data-filter="selected">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2412.06538">Understanding Factual Recall in Transformers via Associative Memories</a></p>
+          <p class="paper-authors"><strong>Eshaan Nichani</strong>, Jason D. Lee, Alberto Bietti</p>
+          <p class="paper-venue">ICLR 2025 <span class="paper-badge">Spotlight</span><span class="topic-tag topic-tc">Transformers</span></p>
+        </div>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2411.17201">Learning Hierarchical Polynomials of Multiple Nonlinear Features with Three-Layer Networks</a></p>
+          <p class="paper-authors">Hengyu Fu, Zihao Wang, <strong>Eshaan Nichani</strong>, Jason D. Lee</p>
+          <p class="paper-venue">ICLR 2025 <span class="topic-tag topic-rl">Repr. Learning</span></p>
+        </div>
+
+        <!-- 2024 -->
+        <p class="pub-year paper-extra">2024</p>
+        <div class="paper" data-filter="selected">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2402.14735">How Transformers Learn Causal Structure with Gradient Descent</a></p>
+          <p class="paper-authors"><strong>Eshaan Nichani</strong>, Alex Damian, Jason D. Lee</p>
+          <p class="paper-venue">ICML 2024 <span class="topic-tag topic-tc">Transformers</span></p>
+        </div>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2311.13774">Learning Hierarchical Polynomials with Three-Layer Neural Networks</a></p>
+          <p class="paper-authors">Zihao Wang, <strong>Eshaan Nichani</strong>, Jason D. Lee</p>
+          <p class="paper-venue">ICLR 2024 <span class="topic-tag topic-rl">Repr. Learning</span></p>
+        </div>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2208.13153">Metastable Mixing of Markov Chains: Efficiently Sampling Low Temperature Exponential Random Graphs</a></p>
+          <p class="paper-authors">Guy Bresler*, Dheeraj Nagaraj*, <strong>Eshaan Nichani</strong>*</p>
+          <p class="paper-venue">Annals of Applied Probability, 2024 <span class="topic-tag topic-misc">Misc. Statistics</span></p>
+        </div>
+
+        <!-- 2023 -->
+        <p class="pub-year paper-extra">2023</p>
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2305.17333">Fine-Tuning Language Models with Just Forward Passes</a></p>
+          <p class="paper-authors">Sadhika Malladi, Tianyu Gao, <strong>Eshaan Nichani</strong>, Alex Damian, Jason D. Lee, Danqi Chen, Sanjeev Arora</p>
+          <p class="paper-venue">NeurIPS 2023 <span class="paper-badge">Oral</span><span class="topic-tag topic-mot">Optimization</span></p>
+        </div>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2305.10633">Smoothing the Landscape Boosts the Signal for SGD: Optimal Sample Complexity for Learning Single Index Models</a></p>
+          <p class="paper-authors">Alex Damian, <strong>Eshaan Nichani</strong>, Rong Ge, Jason D. Lee</p>
+          <p class="paper-venue">NeurIPS 2023 <span class="paper-badge">Oral</span><span class="topic-tag topic-rl">Repr. Learning</span></p>
+        </div>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2305.06986">Provable Guarantees for Nonlinear Feature Learning in Three-Layer Neural Networks</a></p>
+          <p class="paper-authors"><strong>Eshaan Nichani</strong>, Alex Damian, Jason D. Lee</p>
+          <p class="paper-venue">NeurIPS 2023 <span class="paper-badge">Spotlight</span><span class="topic-tag topic-rl">Repr. Learning</span></p>
+        </div>
+
+        <div class="paper" data-filter="selected">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2209.15594">Self-Stabilization: The Implicit Bias of Gradient Descent at the Edge of Stability</a></p>
+          <p class="paper-authors">Alex Damian*, <strong>Eshaan Nichani</strong>*, Jason D. Lee</p>
+          <p class="paper-venue">ICLR 2023 <span class="topic-tag topic-mot">Optimization</span></p>
+        </div>
+
+        <!-- 2022 -->
+        <p class="pub-year paper-extra">2022</p>
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2206.03688">Identifying Good Directions to Escape the NTK Regime and Efficiently Learn Low-Degree Plus Sparse Polynomials</a></p>
+          <p class="paper-authors"><strong>Eshaan Nichani</strong>, Yu Bai, Jason D. Lee</p>
+          <p class="paper-venue">NeurIPS 2022 <span class="topic-tag topic-rl">Repr. Learning</span></p>
+        </div>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://proceedings.mlr.press/v177/squires22a">Causal Structure Discovery between Clusters of Nodes Induced by Latent Factors</a></p>
+          <p class="paper-authors">Chandler Squires, Annie Yun, <strong>Eshaan Nichani</strong>, Raj Agrawal, Caroline Uhler</p>
+          <p class="paper-venue">CLeaR 2022 <span class="topic-tag topic-misc">Misc. Statistics</span></p>
+        </div>
+
+        <!-- Workshop Papers -->
+        <p class="pub-section paper-extra">Workshop Papers</p>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2010.09610">Increasing Depth Leads to U-Shaped Test Risk in Over-parameterized Convolutional Networks</a></p>
+          <p class="paper-authors"><strong>Eshaan Nichani</strong>*, Adityanarayanan Radhakrishnan*, Caroline Uhler</p>
+          <p class="paper-venue">ICML 2021 Workshop on Overparameterization: Pitfalls &amp; Opportunities</p>
+        </div>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://arxiv.org/abs/2003.06340">On Alignment in Deep Linear Neural Networks</a></p>
+          <p class="paper-authors">Adityanarayanan Radhakrishnan*, <strong>Eshaan Nichani</strong>*, Daniel Irving Bernstein, Caroline Uhler</p>
+          <p class="paper-venue">ICML 2021 Workshop on Overparameterization: Pitfalls &amp; Opportunities</p>
+        </div>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://drive.google.com/file/d/1Ggo-sVkdwLPIyLWuO5TaBbpGKV2aJ30y/view">Adaptive Diagonal Curvature: A Quasi-Newton Method for Stochastic Optimization</a></p>
+          <p class="paper-authors">David Saxton, <strong>Eshaan Nichani</strong></p>
+          <p class="paper-venue">ICML 2020 Workshop on Beyond First Order Methods in ML Systems</p>
+        </div>
+
+        <!-- Thesis -->
+        <p class="pub-section paper-extra">Thesis</p>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://dspace.mit.edu/bitstream/handle/1721.1/139174/Nichani-eshnich-meng-eecs-2021-thesis.pdf?sequence=1&isAllowed=y">An Empirical and Theoretical Analysis of the Role of Depth in Convolutional Neural Networks</a></p>
+          <p class="paper-authors"><strong>Eshaan Nichani</strong></p>
+          <p class="paper-venue">Master of Engineering in EECS, MIT, 2021</p>
+        </div>
+
+        <!-- Older Work -->
+        <p class="pub-section paper-extra">Older Work</p>
+
+        <div class="paper paper-extra" data-filter="all">
+          <p class="paper-title"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5501586/">Assessment of Circulant Copy Number Variant Detection for Cancer Screening</a></p>
+          <p class="paper-authors">Bhuvan Molparia, <strong>Eshaan Nichani</strong>, Ali Torkamani</p>
+          <p class="paper-venue">PLoS ONE, 2017</p>
+        </div>
+
+      </div>
+      <p class="pub-note">* Equal contribution.</p>
+    </section>
 
   </div>
-
-  <div class="socials">
-      
-  
-    <a href="https://github.com/eshnich" class="social-link" target="_blank" rel="noopener" ><div class="icon">
-  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
-  
-  <path d="M102.679 0H12.32C5.52 0 0 5.519 0 12.321v90.358C0 109.48 5.519 115 12.321 115h90.358c6.802 0 12.321-5.519 12.321-12.321V12.32C115 5.52 109.481 0 102.679 0zM71.182 98.494c-2.156.385-2.952-.95-2.952-2.053 0-1.386.051-8.471.051-14.195 0-4.005-1.335-6.546-2.9-7.881C74.878 73.313 84.89 72.003 84.89 55.6c0-4.671-1.669-7.007-4.39-10.01.436-1.105 1.9-5.648-.436-11.552-3.568-1.104-11.731 4.595-11.731 4.595-3.389-.95-7.06-1.438-10.679-1.438-3.62 0-7.29.488-10.679 1.438 0 0-8.163-5.699-11.73-4.595-2.337 5.878-.899 10.422-.437 11.551-2.72 3.004-4.004 5.34-4.004 10.011 0 16.326 9.574 17.712 19.072 18.765-1.232 1.104-2.336 3.003-2.72 5.724-2.44 1.104-8.677 3.004-12.4-3.568-2.335-4.056-6.545-4.39-6.545-4.39-4.159-.05-.282 2.619-.282 2.619 2.772 1.283 4.723 6.212 4.723 6.212 2.49 7.624 14.4 5.057 14.4 5.057 0 3.568.052 9.37.052 10.422 0 1.104-.77 2.438-2.952 2.053C27.21 92.821 15.35 76.701 15.35 57.86c0-23.564 18.02-41.456 41.585-41.456s42.663 17.892 42.663 41.456c.026 18.842-11.474 34.988-28.416 40.635zM46 82.81c-.488.103-.95-.102-1.001-.436-.051-.385.282-.719.77-.822.488-.05.95.154 1.001.488.077.334-.257.668-.77.77zm-2.439-.23c0 .333-.385.615-.898.615-.565.052-.95-.23-.95-.616 0-.333.385-.616.899-.616.487-.051.95.231.95.616zm-3.516-.283c-.103.334-.616.488-1.053.334-.488-.103-.821-.488-.719-.822.103-.334.617-.488 1.053-.385.513.154.847.54.719.873zm-3.158-1.386c-.23.282-.718.23-1.104-.154-.385-.334-.487-.822-.23-1.053.23-.282.718-.23 1.103.154.334.334.462.847.231 1.053zm-2.336-2.336c-.23.154-.667 0-.95-.385-.282-.385-.282-.822 0-1.001.283-.231.72-.052.95.333.283.385.283.847 0 1.053zm-1.668-2.49c-.231.23-.616.103-.899-.154-.282-.334-.333-.719-.102-.899.23-.23.616-.102.898.154.282.334.334.72.103.899zm-1.72-1.9c-.103.231-.436.283-.719.103-.334-.154-.488-.436-.385-.667.103-.154.385-.231.719-.103.334.18.488.462.385.667z"/>
-  
-  </svg>
-</div>
-</a>
-  
-
-  
-    <a href="https://twitter.com/EshaanNichani" class="social-link" target="_blank" rel="noopener" ><div class="icon">
-  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
-  
-  <path d="M102.679 0H12.32C5.52 0 0 5.519 0 12.321v90.358C0 109.48 5.519 115 12.321 115h90.358c6.802 0 12.321-5.519 12.321-12.321V12.32C115 5.52 109.481 0 102.679 0zM90.126 40.763c.051.72.051 1.464.051 2.182 0 22.256-16.942 47.9-47.9 47.9-9.548 0-18.404-2.772-25.848-7.547 1.36.154 2.67.205 4.055.205 7.881 0 15.12-2.67 20.895-7.187-7.392-.154-13.604-5.006-15.735-11.68 2.593.385 4.929.385 7.598-.308a16.837 16.837 0 0 1-13.476-16.531v-.205a16.824 16.824 0 0 0 7.598 2.13 16.8 16.8 0 0 1-7.496-14.016c0-3.131.822-6.006 2.285-8.496a47.803 47.803 0 0 0 34.705 17.61c-2.387-11.424 6.161-20.69 16.429-20.69 4.851 0 9.215 2.027 12.296 5.313a32.99 32.99 0 0 0 10.678-4.056 16.792 16.792 0 0 1-7.393 9.267c3.389-.36 6.674-1.31 9.703-2.618a35.437 35.437 0 0 1-8.445 8.727z"/>
-  
-  </svg>
-</div>
-</a>
-  
-
-  </div>
-
-</header>
-
-  <div class="content-wrapper">
-    
-      <div class="breadcrumb">
-  
-
-<span  class="active">
-  <a href="https://eshaannichani.com/">Home</a>
-  
-</span>
-
-</div>
-
-    
-    <main id="content" class="">
-
-<h1></h1>
-<h2 id="about-me">About Me</h2>
-<p>Hi, I&rsquo;m Eshaan! I am a final-year PhD student in the <a href="https://ece.princeton.edu/">ECE</a> department at <a href="https://www.princeton.edu/">Princeton University</a>, jointly advised by <a href="https://jasondlee88.github.io/">Jason D. Lee</a> and <a href="https://yuxinchen2020.github.io/">Yuxin Chen</a>.</p>
-<p>You can contact me at eshnich (at) princeton (dot) edu.</p>
-<p><a href="/main.pdf">CV</a> <a href="https://scholar.google.com/citations?user=ZQs5JAIAAAAJ&amp;hl=en">Google Scholar</a></p>
-<p>I spent Summer 2024 as a research associate at the Flatiron Institute <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-mathematics/">Center for Computational Mathematics</a>, working with <a href="https://alberto.bietti.me/">Alberto Bietti</a>. I am supported by the <a href="https://ndseg.sysplus.com/">DoD NDSEG Fellowship</a> and the <a href="https://research.ibm.com/university/awards/fellowships-awardees.html">IBM PhD Fellowship</a>. I previously received my B.S. degrees in Math and Computer Science (2020) and my <a href="https://dspace.mit.edu/bitstream/handle/1721.1/139174/Nichani-eshnich-meng-eecs-2021-thesis.pdf">M.Eng degree in EECS (2021)</a> from <a href="https://web.mit.edu/">MIT</a>, where I was advised by <a href="https://www.carolineuhler.com/">Caroline Uhler</a>.</p>
-<h2 id="research-overview">Research Overview</h2>
-<p>The goal of my research is to develop mathematical theories of how deep neural networks learn from data. This follows three broad themes:</p>
-<p><strong>Feature Learning:</strong> How do shallow neural networks trained via SGD learn sophisticated representations from data?</p>
-<ul>
-<li>
-<p><a href="https://arxiv.org/abs/2305.06986"><strong>Provable Guarantees for Nonlinear Feature Learning in Three-Layer Neural Networks</strong></a><br>
-<strong>Eshaan Nichani</strong>, Alex Damian, Jason D. Lee.<br>
-<em>Neural Information Processing Systems (NeurIPS)</em>, 2023 (<span style="color:red"><strong>Spotlight</strong></span>).</p>
-</li>
-<li>
-<p><a href="https://arxiv.org/abs/2504.19983"><strong>Emergence and scaling laws in SGD learning of shallow neural networks</strong></a><br>
-Yunwei Ren*, <strong>Eshaan Nichani</strong>*, Denny Wu, Jason D. Lee.<br>
-<em>Neural Information Processing Systems (NeurIPS)</em>, 2025.</p>
-</li>
-</ul>
-<p><strong>Transformer Phenomena:</strong> How do transformers learn to acquire capabilities during pretraining?</p>
-<ul>
-<li>
-<p><a href="https://arxiv.org/abs/2402.14735"><strong>How Transformers Learn Causal Structure with Gradient Descent</strong></a><br>
-<strong>Eshaan Nichani</strong>, Alex Damian, Jason D. Lee.<br>
-<em>International Conference on Machine Learning (ICML)</em>, 2024.</p>
-</li>
-<li>
-<p><a href="https://arxiv.org/abs/2505.23683"><strong>Learning Compositional Functions with Transformers from Easy-to-Hard Data</strong></a><br>
-Zixuan Wang*, <strong>Eshaan Nichani</strong>*, Alberto Bietti, Alex Damian, Daniel Hsu, Jason D. Lee, Denny Wu.<br>
-<em>Conference on Learning Theory (COLT)</em>, 2025.</p>
-</li>
-</ul>
-<p><strong>Optimization Dynamics:</strong> Can we model deep learning optimization, and derive insights for training deep networks in practice?</p>
-<ul>
-<li>
-<p><a href="https://arxiv.org/abs/2209.15594"><strong>Self-Stabilization: The Implicit Bias of Gradient Descent at the Edge of Stability</strong></a><br>
-Alex Damian*, <strong>Eshaan Nichani</strong>*, Jason D. Lee.<br>
-<em>International Conference on Learning Representations (ICLR)</em>, 2023.</p>
-</li>
-<li>
-<p><a href="https://arxiv.org/abs/2305.17333"><strong>Fine-Tuning Language Models with Just Forward Passes</strong></a><br>
-Sadhika Malladi, Tianyu Gao, <strong>Eshaan Nichani</strong>, Alex Damian, Jason D. Lee, Danqi Chen, and Sanjeev Arora.<br>
-<em>Neural Information Processing Systems (NeurIPS)</em>, 2023 (<span style="color:red"><strong>Oral</strong></span>).</p>
-</li>
-</ul>
-<p>Check out my <a href="/publications/">publications</a> page for more!</p>
-<!--
-1. How do shallow neural networks trained via SGD learn sophisticated representations from data (i.e perform feature learning)? I derive end-to-end guarantees on the sample complexity, network size, and runtime required for neural networks to learn various classes of functions with SGD.
-
-2. Transformer-based language models display a host of surprising capabilities, ranging from in-context learning to multi-step reasoning. My research aims to understand how transformers learn to acquire such capabilities during pretraining, by deriving provable guarantees for gradient descent on certain synthetic, sandbox tasks which formalize these core phenomena.
-
---><blockquote>
-</blockquote>
-
-
-
-
-    </main>
-  </div>
-  <footer>
-    <div class="footer-wrapper">
-      <p>Made with ❤ &mdash; Powered by <a href="https://gohugo.io/" target="_blank" rel="external">Hugo</a> and the <a href="https://github.com/bjacquemet/personal-web" target='_blank' rel="external">Personal Web</a> theme. Icons come from the great <a href="https://fontawesome.com/license" target="_blank" rel="external">Font Awesome</a> library</p>
-      <p>© Eshaan Nichani</p>
-    </div>
-  </footer>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600|Raleway:400,400i,600" rel="stylesheet">
-  
+  <script src="main.js"></script>
 </body>
 </html>
