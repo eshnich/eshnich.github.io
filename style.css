@@ -544,6 +544,21 @@ h2 {
   margin-bottom: 0;
 }
 
+.post .remark-box {
+  border-left-color: #4f9a7f;
+  background: #f3f8f5;
+}
+
+.post .remark-box summary {
+  font-weight: bold;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.post .remark-box[open] summary {
+  margin-bottom: 0.6rem;
+}
+
 .post .theorem-label {
   font-weight: bold;
   color: #1a1a1a;
